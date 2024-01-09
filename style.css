@@ -362,6 +362,10 @@ font-family: 'Inter', sans-serif; */
     width: 350px;
     height: 400px;
 }
+.img-style:hover{
+    box-shadow: 4px 2px 15px 4px #866666;
+    border-radius: 15px;
+}
 
 /* newsletter section start */
 .newsletter {
