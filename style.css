@@ -100,13 +100,23 @@ font-family: 'Inter', sans-serif; */
     text-align: left;
     color: white;
     border-top: 100px solid white;
+    
+}
+.year-count{
+    margin: 50px 0px 0px -500px;
+    
+}
+.year-count img{
+    height: 400px;
+    height: 400px;
 }
 
 .party-text {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.541) 100%);
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.418) 100%);
     width: 1150px;
     height: 500px;
     border-radius: 8px;
+    display: flex;
 }
 
 .party-title {
@@ -129,7 +139,7 @@ font-family: 'Inter', sans-serif; */
     line-height: 25px;
     width: 550px;
     height: 40px;
-    padding: 5px 500px 10px 120px;
+    padding: 5px 0px 10px 120px;
 }
 
 .party-btn {
@@ -182,11 +192,140 @@ font-family: 'Inter', sans-serif; */
     font-weight: 600;
     padding: 15px 30px;
 }
+/* Best offer comming soon section start */
+.best-offer{
+    width: 1150px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+}
+.first-title{
+    margin: 100px 0px 15px 0px;
+}
+.best-offer-small-title{
+    color: #F00;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+.best-offer-title{
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Merriweather';
+    text-transform: capitalize;
+}
+.best-offer-description{
+    color: #070211;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter';
+    margin: 15px 60px 100px 0px;
+    width: 320px;
+    height: 120px;
+}
+.offer-celebration{
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 12px solid red;
+}
+.celebration-img{
+    height: 320px;
+    width: 320px;
+    margin: 40px;
+}
+.secend-title{
+    margin: 110px 0px 0px 150px;
+}
+.number-text{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 45px;
+    font-weight: 700;
+}
+.short-qoute{
+    color: #070211;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter';
+    margin: 15px 0px;
+}
+.new-era-logo{
+    width: 100px;
+    height: 100px;
+    margin: 75px 0px 0px 0px;
+}
+
+/* holiday discount section start */
+.holiday-discount{
+    width: 1150px;
+    height: auto;
+    margin: 200px auto;
+}
+.holiday-text{
+    text-align: center;
+}
+.slog{
+    color: #070211;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+.holiday-titel span{
+    color: #F00;
+}
+.holiday-titel{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+}
+.holiday-description{
+    color: #070211;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+.womanpic{
+    display: flex;
+}
+.emtyspech{
+    width: 550px;
+    height: auto;
+    padding: 0px 172px 0px 0px;
+}
+.model-pic{
+    position: absolute;
+}
+.discout-logo{
+    position: relative;
+    left: -150px;
+    top: 50px;
+}
+.redcolor{
+    width: 1150px;
+    height: 200px;
+    margin:120px 0px 0px auto;
+    background: #F00;
+    position: absolute;
+}
+.giftbox{
+    position: relative;
+    bottom: 120px;
+    left: 50px;
+}
+.boximg{
+    height: 450px;
+    width: 450px;
+    
+}
 /* portfolio section start */
 .portfolio{
     width: 1150px;
     height: auto;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 .portfolio-sub-title{
     color: #F00;
